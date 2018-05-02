@@ -2,6 +2,7 @@ package com.dmxiaoshen.structure.adapter;
 
 /**
  * Created by hzhsg on 2018/4/28.
+ * 已有手机，需要5v电压充电
  */
 public class Mobile {
 

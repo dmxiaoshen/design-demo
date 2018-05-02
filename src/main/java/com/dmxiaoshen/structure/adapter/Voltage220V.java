@@ -2,6 +2,7 @@ package com.dmxiaoshen.structure.adapter;
 
 /**
  * Created by hzhsg on 2018/4/28.
+ * 已有220v电压
  */
 public class Voltage220V {
 

@@ -2,6 +2,7 @@ package com.dmxiaoshen.creational.singleton;
 
 /**
  * Created by hzhsg on 2018/4/28.
+ * 单例模式
  */
 public class Main {
 
