@@ -13,16 +13,25 @@ public class Main {
 
     }
 
+    /**
+     * 类适配,继承src,dst必须是接口，局限性很大
+     */
     public static void testVoltageAdapter1(){
         Mobile mobile = new Mobile();
         mobile.charging(new VoltageAdapter1());
     }
 
+    /**
+     * 对象适配，持有 src类，实现 dst 类接口，完成src->dst的适配。
+     */
     public static void testVoltageAdapter2(){
         Mobile mobile = new Mobile();
         mobile.charging(new VoltageAdapter2(new Voltage220V()));
     }
 
+    /**
+     * 接口适配器
+     */
     public static void testInterfaceAdapter3(){
         InterfaceAdapter3 interfaceAdapter3 = new InterfaceAdapter3(new ListenerAdapter() {
             @Override
